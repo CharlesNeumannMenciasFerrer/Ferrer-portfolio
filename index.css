@@ -1,4 +1,32 @@
-.large-screen-bg {
+.large-screen-bg1 {
+	background-image: url('./images/artificial-intelligence-g6006e8dd5_1920.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.large-screen-bg2 {
+	background-image: url('./images/glass-g810ed3de9_1920.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.large-screen-bg3 {
+	background-image: url('./images/man-g5ab3dc187_1920.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.large-screen-bg4 {
+	background-image: url('./images/earth-g50fe57272_1920.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.small-screen-bg {
 	background-image: url('./images/glass-g810ed3de9_1920.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -6,9 +34,26 @@
 }
 
 
-.small-screen-bg {
-	background-image: url('./images/glass-g810ed3de9_1920.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 100vh;
+.text-size-150{
+	font-size: 150%;
+}
+
+
+
+
+
+
+
+
+.slide-from-left {
+	animation: slideFromLeft 2s ease-in-out;
+}
+
+@keyframes slideFromLeft {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0);
+	}
 }
