@@ -1,0 +1,14 @@
+.large-screen-bg {
+	background-image: url('./images/glass-g810ed3de9_1920.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+
+.small-screen-bg {
+	background-image: url('./images/glass-g810ed3de9_1920.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
